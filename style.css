@@ -47,25 +47,23 @@ p {
 
 #header-content h1 {
     margin: 10px 0;
-    font-size: 30px;
+    font-size: 50px;
 }
 #header-content h2 {
     margin: 10px 0;
-    float: left;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 #photo-container img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-    max-height: 250px; /* Adjust the max height as needed */
-    float: right;
+    max-height: 200px;
 }
 
 #description p {
     color: #000000; 
-    font-size: 25px;
+    font-size: 35px;
 }
 
 
