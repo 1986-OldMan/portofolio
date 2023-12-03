@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Tic-Tac-Toe",
             description: "Tic-Tac-Toe classic game, my first game created.Let's see who wins?",
             image: "./Public/img/Tic-tac-toe.jpg",
-            link: "https://github.com/1986-OldMan/TIC-TAC-TOE"
+            link: "https://github.com/1986-OldMan/TIC-TAC-TOE",
         },
     ];
 
