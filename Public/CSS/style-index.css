@@ -104,6 +104,10 @@ p {
     font-size: 22px;
 }
 
+.project-link:hover {
+    text-decoration: underline;
+}
+
 /* Contact section section */
 #contact .contact-icons {
     list-style: none;
