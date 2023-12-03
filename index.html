@@ -3,36 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./Public/CSS/style.css">
+    <link rel="stylesheet" href="./Public/CSS/Responsive-designe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/My-Documents-icon.png" rel="icon" type="image/x-icon">
 
     <title>Alexandru Ivanescu - Portofolio</title>
 </head>
 <body>
-    <header>
-        <section id="photo-section">
-            <div class="container">
+    <section id="text-photo-section">
+        <div class="container">
+            <div id="text-container">
                 <div id="header-content">
                     <h1>Alexandru Ivanescu</h1>
+                    <hr>
                     <h2>Web Developer</h2>
                 </div>
                 <div id="description">
                     <p>Aloha, passionate about the programming universe</p>
-                    <p>I quickly learned to create things in programming and projects with dynamics on both the frontend and backend sides.</p>
-                    <p>Committed, disciplined, and dedicated to crafting exceptional software experiences.</p>
-                </div>
-                <div id="photo-container">
-                    <img src="./img/my-photo.jpg" alt="Your Name">
+                    <p>I quickly learned to create ideas in programming and projects with frontend and backend together.</p>
+                    <p>Dedicated, disciplined, committed to building software experiences.</p>
                 </div>
             </div>
-        </section>
-    </header>
+            <div id="photo-container">
+                <img src="./img/my-photo.jpg" alt="Your Name">
+            </div>
+        </div>
+    </section>
+    
+    
 
 <section id="skills">
     <div class="container">
-        <h2>Skills:</h2>
+        <h2>Technology:</h2>
+        <hr>
         <div class="skills-container">
-            <div class="column">
+            <div class="column-skills">
                 <h3>Frontend:</h3>
                 <ul id="frontend-skills">
                     <li><i class="fab fa-html5"></i> HTML</li>
@@ -41,7 +47,7 @@
                 </ul>
             </div>
 
-            <div class="column">
+            <div class="column-skills">
                 <h3>Backend:</h3>
                 <ul id="backend-skills">
                     <li><i class="fab fa-node"></i> Node.js</li>
@@ -51,10 +57,11 @@
                 </ul>
             </div>
 
-            <div class="column">
-                <h3>Other:</h3>
+            <div class="column-skills">
+                <h3>DevOps:</h3>
                 <ul id="other-languages-skills">
                     <li><i class="fab fa-git"></i> GIT</li>
+                    <li><i class="fa-solid fa-terminal fa-2xs"></i>Powershell</li>
                 </ul>
             </div>
         </div>
@@ -63,7 +70,8 @@
 
 <section id="projects">
     <div class="container">
-        <h2>Projects</h2>
+        <h2>Projects:</h2>
+        <hr>
         <div id="project-list"></div>
     </div>
 </section>
@@ -71,18 +79,25 @@
 <footer>
     <div class="container">
         <section id="contact">
-            <h2>Contact Me</h2>
+            <h2>Ways to connect</h2>
             <p>
-                Feel free to reach out to me for collaboration, job opportunities, or just to say hello!
+                Feel free to reach out to me for collaboration, job opportunities, or to bring your ideas to life!
             </p>
             <ul class="contact-icons">
                 <li><a href="mailto:ivanescu.alexandru01@gmail.com"><i class="fas fa-envelope"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/alexandru-ivanescu-131a57215/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 <li><a href="https://github.com/1986-OldMan" target="_blank"><i class="fab fa-github"></i></a></li>
             </ul>
+
+            <hr>
+
+            <section id="copyright">
+                <p>All Rights Reserved &copy; 2023-2024</p>
+            </section>
+         </div>
         </section>
     </div>
 </footer>
+<script src="./Public/JS/index.js"></script>
 </body>
-<script src="index.js"></script>
 </html>
