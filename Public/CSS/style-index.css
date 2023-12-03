@@ -224,3 +224,31 @@ hr {
         height: 20px;
     }
 } 
+
+@media only screen and (max-width: 380px) {
+
+    #project-list .project {
+        width: 100%;
+    }
+
+    #project-list {
+        display: grid;
+    }
+
+    #skills ul li img {
+        width: 20px;
+        height: 20px;
+    }
+
+    #photo-container {
+        width: 100%; 
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    #photo-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
